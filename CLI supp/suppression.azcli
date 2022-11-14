@@ -1,0 +1,9 @@
+
+az monitor metrics alert delete --resource-group AnkitTest --name VM_CPU_Dev_ANKITTest1
+
+--ids /subscriptions/8d96f14e-b8e7-4236-a75c-4b0a99245758/resourceGroups/AnkitTest/providers/microsoft.insights/metricalerts/VM_Health_Dev_ANKITTest
+
+--resource-group AnkitTest --name VM_CPU_Dev_ANKITTest1
+
+az monitor metrics alert update --enabled true  --resource-group AnkitTest --name VM_CPU_Dev_ANKITTest1
+
